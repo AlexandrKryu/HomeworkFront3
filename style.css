@@ -3,25 +3,108 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header{
     margin-top: 51px;
+    display: flex;
+    gap: 500px;
+}
+
+.Header_link{
+    font-size: 14px;
+    font-family: Gilroy-SemiBold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.centr{
+    padding-left: calc(50% - 660px);
+    padding-right: calc(50% - 660px);
+}
+
+.hcentr{
+    padding-left: calc(50% - 644px);
+    padding-right: calc(50% - 644px);
+}
+
+.tccentr{
+    padding-left: calc(50% - 637px);
+    padding-right: calc(50% - 637px);
+}
+
+.tlcentr{
+    padding-left: calc(50% - 620px);
+    padding-right: calc(50% - 620px);
+
 }
 
 .top__content{
     margin-top: 163px;
     margin-bottom: 162px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 41px;
 }
 
 .title{
     margin-top: 164px;
     margin-bottom: 17px;
 }
+.top__info{
+    color: #000;
+font-size: 60px;
+font-family: Gilroy-Bold;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text{
+    width: 468px;
+    color: #888;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .top__btn{
     margin-top: 37px;
+    display: flex;
+    gap: 108px;
+}
+
+.btn_start{
+    color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_watch{
+    color: #AAA;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .top__logos{
     padding-top: 97px;
     padding-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 48px;
 }
